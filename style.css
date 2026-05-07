@@ -1,0 +1,20 @@
+body {
+            font-family: "Arial", sans-serif;
+            background: #1D2538 ;
+            background: linear-gradient(90deg, rgba(29, 37, 56, 1) 0%, rgba(66, 82, 105, 1) 35%, rgba(139, 161, 185, 1) 100%);
+        }
+
+        nav .nav-link,#about h1,#about p {
+            color: white !important;
+        }
+
+        nav .fs-4 {
+            color: white; 
+            font-family: "Sacramento", cursive;
+        }
+
+        .skills{
+            background: #1D2538;
+            background: linear-gradient(90deg, rgba(29, 37, 56, 1) 1%, rgba(29, 37, 56, 1) 7%, rgba(139, 161, 185, 1) 38%, rgba(139, 161, 185, 1) 80%, rgba(29, 37, 56, 1) 99%);
+            color: white;
+        }
