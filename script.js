@@ -21,11 +21,23 @@
     const skillsSection = document.getElementById('skills');
 
     const projectCards = cardsContainer ? Array.from(cardsContainer.querySelectorAll('.card-cover')) : [];
-    const projectData = Object.freeze([
-        { image: './images/project 1.png', demo: 'https://huzaifa1927.github.io/frubs-website-ui-clone/', code: 'https://github.com/Huzaifa1927/frubs-website-ui-clone' },
-        { image: './images/project 2.png', demo: 'https://huzaifa1927.github.io/Zubbery-Clone/', code: 'https://github.com/Huzaifa1927/Zubbery-Clone' },
-        { image: './images/project 3.png', demo: 'https://huzaifa1927.github.io/Edu-University-Frontend/', code: 'https://github.com/Huzaifa1927/Edu-University-Frontend' }
-    ]);
+    const projectData = [
+    { 
+        image: './images/project 1.png', 
+        demo: 'https://huzaifa1927.github.io/frubs-website-ui-clone/',
+        code: 'https://github.com/Huzaifa1927/frubs-website-ui-clone'
+    },
+    { 
+        image: './images/project 2.png', 
+        demo: 'https://huzaifa1927.github.io/Zubbery-Clone/',
+        code: 'https://github.com/Huzaifa1927/Zubbery-Clone'
+    },
+    { 
+        image: './images/project 3.png', 
+        demo: 'https://huzaifa1927.github.io/edu',
+        code: 'https://github.com/huzaifa1927/edu'
+    }
+];
 
     function typeEffect() {
         if (!typingText) return;
