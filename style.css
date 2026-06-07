@@ -1,0 +1,763 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: #1D2538 ;
+    background: linear-gradient(90deg, rgba(29, 37, 56, 1) 0%, rgba(66, 82, 105, 1) 35%, rgba(139, 161, 185, 1) 100%);
+    cursor:url("data:application/octet-stream;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWTP4AFUz+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUwtABRL6AAUS/4AFUz+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF07IABRL/AAUSvoAFEr+ABNK+QAWTP4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUS/wAFEv+ABNK/gAUSvoAFUwtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUwtABRK+gATSv4AFEv+ABRL/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXTi0AFk38ABZN2QAUSvoAFEr+ABRK+gAUS/wAF07IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTC0AE0r9ABNJ/gASSf4AEkn5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUwtABRL6gAUSv4AE0r9ABJJ+QAUSykAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABVMLQAUS+oAFEr+ABRL6gAVTC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASSssAE0r9ABRK/gAUS+oAFUwtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEUlkABJJ/gATSf4AE0r9ABVMLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFKWQATSvwAEkn+ABJJ/gASSssAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEuOABJJ/gATSvwAEUlkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRLbAASSf4AFEuOABFKWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPSVMAE0rvABRLbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE0ZaABNK9QASSX0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATSvYAEEdrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////+f////D////A////wf///4P///wD///4D///+B////gf///4H///4D///8P///+D////B////A////wf///4P///+D///+D///+D////g////wf///4H///8H///+D////B////g////4f///8P///+P////H////z////8="), auto !important;
+}
+
+a, button, input, label, select {
+    cursor:url("data:application/octet-stream;base64,AAACAAEAICAAAAAAAACoEAAAFgAAACgAAAAgAAAAQAAAAAEAIAAAAAAAgBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAWTP4AFUz+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUwtABRL6AAUS/4AFUz+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAF07IABRL/AAUSvoAFEr+ABNK+QAWTP4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUS/wAFEv+ABNK/gAUSvoAFUwtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUwtABRK+gATSv4AFEv+ABRL/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAXTi0AFk38ABZN2QAUSvoAFEr+ABRK+gAUS/wAF07IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA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AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAVTC0AE0r9ABNJ/gASSf4AEkn5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFUwtABRL6gAUSv4AE0r9ABJJ+QAUSykAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABVMLQAUS+oAFEr+ABRL6gAVTC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASSssAE0r9ABRK/gAUS+oAFUwtAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEUlkABJJ/gATSf4AE0r9ABVMLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFKWQATSvwAEkn+ABJJ/gASSssAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFEuOABJJ/gATSvwAEUlkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRLbAASSf4AFEuOABFKWQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPSVMAE0rvABRLbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE0ZaABNK9QASSX0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATSvYAEEdrAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA////+f////D////A////wf///4P///wD///4D///+B////gf///4H///4D///8P///+D////B////A////wf///4P///+D///+D///+D////g////wf///4H///8H///+D////B////g////4f///8P///+P////H////z////8="), pointer !important;
+}
+
+
+nav .nav-link,#about h1,#about p {
+    color: white !important;
+}
+
+
+nav .fs-4 {
+    color: white; 
+    font-family: "Sacramento", cursive;
+}
+
+.hamburger {
+    display: none;
+}
+
+.skills{
+  background: #1D2538;
+  background: linear-gradient(90deg, rgba(29, 37, 56, 1) 1%, rgba(29, 37, 56, 1) 7%, rgba(139, 161, 185, 1) 38%, rgba(139, 161, 185, 1) 80%, rgba(29, 37, 56, 1) 99%);
+  color: white;
+}
+
+/* Skills cards - glass panels with animated border (border-only) */
+#skills {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#skills .skill-card {
+  position: relative;
+  overflow: visible;
+  padding: 2rem 1.5rem 1.75rem 1.5rem;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 1.25rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6);
+  transition: transform 0.34s cubic-bezier(.2,.9,.2,1), box-shadow 0.34s, border-color 0.34s;
+  will-change: transform;
+  isolation: isolate;
+  opacity: 0;
+  transform: translateY(14px);
+  animation: cardIn 0.6s ease forwards;
+}
+
+#skills .skill-card::before {
+  /* border-only animated glow */
+  content: "";
+  position: absolute;
+  inset: -2px;
+  border-radius: inherit;
+  background: conic-gradient(from 90deg, rgba(0,183,255,0.9), rgba(152,95,255,0.9), rgba(0,255,188,0.9), rgba(0,183,255,0.9));
+  pointer-events: none;
+  z-index: 0;
+  filter: blur(8px);
+  opacity: 0.9;
+  /* make center transparent so only border shows */
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  padding: 2px; /* thickness of visible border */
+  animation: borderSpin 5.5s linear infinite;
+}
+
+#skills .skill-card > * { position: relative; z-index: 1; }
+
+#skills .skill-card:hover {
+  transform: translateY(-12px) rotate(-0.5deg);
+  box-shadow: 0 28px 70px rgba(2,6,23,0.7), 0 6px 24px rgba(0,183,255,0.04);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+#skills .skill-card h5 {
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  color: #fff;
+}
+
+/* animated underline under heading */
+#skills .skill-card h5::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  margin-top: 10px;
+  border-radius: 6px;
+  background: linear-gradient(90deg, rgba(0,183,255,0.95), rgba(152,95,255,0.95));
+  transition: width 0.36s cubic-bezier(.2,.9,.2,1);
+}
+
+#skills .skill-card:hover h5::after { width: 100%; }
+
+#skills .skill-card p { color: rgba(255,255,255,0.78); }
+
+@keyframes cardIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* small accent badge top-right */
+#skills .skill-card .badge-accent {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.12), rgba(255,255,255,0.06));
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  z-index: 2;
+  border: 1px solid rgba(255,255,255,0.06);
+}
+
+/* Touch & responsive adjustments for tablet / mobile */
+@media (max-width: 992px) {
+  #skills .skill-card {
+    padding: 1.5rem;
+    min-height: 200px;
+    border-radius: 1rem;
+  }
+  #skills .skill-card::before {
+    filter: blur(6px);
+    padding: 1.5px;
+    animation-duration: 4.2s;
+  }
+  #skills .skill-card h5::after { height: 2.5px; }
+}
+
+@media (max-width: 576px) {
+  #skills .skill-card {
+    padding: 1.1rem;
+    min-height: 160px;
+    border-radius: 0.9rem;
+  }
+  #skills .skill-card::before {
+    filter: blur(5px);
+    padding: 1px;
+    opacity: 0.8;
+    animation-duration: 3.6s;
+  }
+  #skills .skill-card h5::after { height: 2px; }
+}
+
+/* touched class for touch devices (applies same visual effect as hover) */
+#skills .skill-card.touched {
+  transform: translateY(-10px) rotate(-0.3deg);
+  box-shadow: 0 22px 56px rgba(2,6,23,0.65), 0 4px 18px rgba(0,183,255,0.03);
+  border-color: rgba(255,255,255,0.16);
+}
+
+#skills .skill-card.touched h5::after { width: 100%; }
+
+#contact {
+  padding: 4rem 0 2rem;
+  background: rgba(255, 255, 255, 0.04);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#contact h2 {
+  letter-spacing: 0.04em;
+  color: #f8f9fa;
+}
+
+#contact .contact-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1.5rem;
+  padding: 2rem 1.5rem;
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.18);
+  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#contact .contact-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(0, 183, 255, 0.35);
+  box-shadow: 0 24px 55px rgba(0, 0, 0, 0.22);
+}
+
+#contact .contact-card i {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  color: #61dafb;
+}
+
+#contact .contact-card h5 {
+  margin-bottom: 0.75rem;
+  color: #fff;
+}
+
+#contact .contact-card p {
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+#contact .contact-card p a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+
+#contact .contact-card p a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Back to Top Button */    
+#backToTop {
+    display: none;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(6px);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    z-index: 20;
+}
+
+#backToTop:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+#backToTop.show {
+    display: block;
+    opacity: 1;
+}
+
+/* Sparkle Effect */
+
+.sparkle {
+  position: fixed;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  animation: sparkleAnim 0.8s ease forwards;
+  background: rgb(0, 119, 255);
+  box-shadow: 0 0 6px rgb(0, 174, 255), 0 0 12px rgb(0, 123, 255);
+}
+
+@keyframes sparkleAnim {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--tx), var(--ty)) scale(0);
+    opacity: 0;
+  }
+}
+
+/* About Section Animation */
+
+#about h1 span {
+  display: inline-block;
+  animation: jump 0.6s ease infinite alternate;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Responsive Navigation */
+
+@media (max-width: 768px) {
+    .nav.nav-pills {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+        position: absolute;
+        top: 80px;
+        background: rgba(255, 255, 255, 0.08);
+        padding: 1.5rem;
+        border-radius: 0.75rem;
+        z-index: 10;
+    }
+
+    .nav.nav-pills.show-mobile {
+        display: flex;
+    }
+
+    .nav-link {
+        color: white !important;
+        padding: 0.5rem 0.75rem;
+    }
+
+    .hamburger {
+        display: block;
+        color: white;
+        font-size: 1.75rem;
+    }
+
+    .hamburger i {
+        color: white;
+    }
+
+    nav header {
+        position: relative;
+    }
+}
+
+/* Project Modal Styles */
+.project-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2000;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.project-modal.active {
+    display: flex;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes borderSpin {
+  from { background-position: 0% 50%; }
+  to { background-position: 100% 50%; }
+}
+
+.modal-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90vh;
+    animation: slideUp 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.modal-close {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    background: rgba(255, 255, 255, 0.95);
+    border: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #333;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.1s;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    z-index: 2001;
+}
+
+.modal-close:hover {
+    transform: scale(1.15) rotate(90deg);
+    color: #007bff;
+    background: white;
+}
+
+.modal-image-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%, contain;
+}
+
+.modal-image {
+    width: auto;
+    height: auto;
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 1rem;
+    object-fit: contain;
+    display: block;
+}
+
+.modal-actions {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    padding: 2rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    border-radius: 0 0 1rem 1rem;
+}
+
+.btn-demo,
+.btn-code {
+    padding: 0.95rem 2rem;
+    border: none;
+    border-radius: 0.85rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    flex: 1;
+    min-width: 150px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.18);
+}
+
+.btn-demo i,
+.btn-code i {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    font-size: 1.05rem;
+}
+
+.btn-demo {
+    background: linear-gradient(135deg, #39a2ff, #0f4dff);
+    color: white;
+}
+
+.btn-demo i {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.18);
+}
+
+.btn-demo:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 18px 38px rgba(3, 104, 255, 0.35);
+    background: linear-gradient(135deg, #57b0ff, #2062ff);
+}
+
+.btn-code {
+    background: linear-gradient(135deg, #111827, #343a40);
+    color: white;
+}
+
+.btn-code i {
+    background: rgba(255, 255, 255, 0.12);
+    color: #f8f9fa;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.12);
+}
+
+.btn-code:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 18px 38px rgba(52, 58, 64, 0.35);
+    background: linear-gradient(135deg, #2f353d, #1b1f26);
+}
+
+.btn-demo.btn-sm,
+.btn-code.btn-sm {
+    padding: 0.55rem 1rem;
+    font-size: 0.82rem;
+    min-width: 110px;
+}
+
+.btn-demo.btn-sm i,
+.btn-code.btn-sm i {
+    width: 1.75rem;
+    height: 1.75rem;
+    font-size: 0.95rem;
+}
+
+.btn-demo.disabled,
+.btn-code.disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* Modal responsive for smaller screens */
+@media (max-width: 576px) {
+    .modal-content {
+        max-width: 95%;
+    }
+    
+    .modal-close {
+        top: 1rem;
+        right: 1rem;
+        font-size: 2rem;
+    }
+    
+    .modal-image {
+        max-height: 50vh;
+    }
+    
+    .modal-actions {
+        padding: 1.5rem 1rem;
+        gap: 0.75rem;
+    }
+    
+    .btn-demo,
+    .btn-code {
+        padding: 0.75rem 1rem;
+        font-size: 0.85rem;
+        min-width: 100px;
+    }
+}
+
+.note-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.note-box {
+  position: relative;
+  flex: 1 1 180px;
+  min-width: 180px;
+  max-width: 230px;
+  padding: 1rem 1.2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.16);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  color: #0d0f20;
+  overflow: hidden;
+  transform: rotate(-1deg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.note-box strong {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-size: 1rem;
+  letter-spacing: 0.01em;
+}
+
+.note-box p {
+  margin: 0;
+  font-size: 0.92rem;
+  line-height: 1.5;
+  color: #111827;
+}
+
+.note-box::before {
+  content: "";
+  position: absolute;
+  width: 60px;
+  height: 18px;
+  top: 0.9rem;
+  left: 1rem;
+  background: rgba(255, 255, 255, 0.55);
+  border-radius: 0 0 12px 12px;
+  transform: rotate(-2deg);
+  filter: blur(0.5px);
+}
+
+.note-box:hover {
+  transform: translateY(-3px) rotate(0deg);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.2);
+}
+
+.note-yellow {
+  background: linear-gradient(160deg, rgba(255, 245, 157, 0.95), rgba(255, 224, 130, 0.92));
+}
+
+.note-cyan {
+  background: linear-gradient(160deg, rgba(168, 219, 255, 0.92), rgba(123, 196, 255, 0.88));
+}
+
+.note-purple {
+  background: linear-gradient(160deg, rgba(206, 185, 255, 0.9), rgba(168, 150, 255, 0.84));
+}
+
+.hero-image-wrapper {
+  position: relative;
+  display: inline-block;
+  max-width: 740px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.hero-image-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 12px;
+  border-radius: 2rem;
+  background: radial-gradient(circle at 35% 35%, rgba(66, 206, 255, 0.22), transparent 42%),
+              radial-gradient(circle at 60% 65%, rgba(255, 90, 215, 0.16), transparent 38%);
+  filter: blur(24px);
+  opacity: 0.82;
+  z-index: 0;
+}
+
+.hero-image-wrapper img {
+  position: relative;
+  z-index: 2;
+  border-radius: 2rem;
+  box-shadow: 0 32px 100px rgba(3, 15, 48, 0.35);
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero-deco {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero-deco::before,
+.hero-deco::after {
+  content: "";
+  position: absolute;
+  border-radius: 2px;
+  opacity: 0.85;
+  transition: transform 0.35s ease, opacity 0.35s ease;
+}
+
+.hero-deco::before {
+  width: 420px;
+  height: 420px;
+  top: 10%;
+  left: 8%;
+  border-top: 2px solid rgba(66, 206, 255, 0.75);
+  border-left: 2px solid rgba(66, 206, 255, 0.75);
+  transform: rotate(-12deg);
+  box-shadow: 0 0 22px rgba(66, 206, 255, 0.32);
+}
+
+.hero-deco::after {
+  width: 320px;
+  height: 320px;
+  bottom: 5%;
+  right: 6%;
+  border-bottom: 2px solid rgba(255, 90, 215, 0.72);
+  border-right: 2px solid rgba(255, 90, 215, 0.72);
+  transform: rotate(18deg);
+  box-shadow: 0 0 26px rgba(255, 90, 215, 0.28);
+}
+
+.hero-image-wrapper:hover .hero-deco::before {
+  transform: rotate(-8deg) scale(1.05);
+  opacity: 1;
+}
+
+.hero-image-wrapper:hover .hero-deco::after {
+  transform: rotate(22deg) scale(1.08);
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .hero-deco::before,
+  .hero-deco::after {
+    display: block;
+    opacity: 0.72;
+  }
+
+  .hero-deco::before {
+    width: 300px;
+    height: 260px;
+    top: 50%;
+    left: 9%;
+    border-top-width: 5px;
+    border-left-width: 2.5px;
+    transform: rotate(-14deg);
+    box-shadow: 0 0 18px rgba(66, 206, 255, 0.28);
+    z-index: 100;
+  }
+
+  .hero-deco::after {
+    width: 200px;
+    height: 200px;
+    bottom: 2%;
+    right: 3%;
+    border-bottom-width: 1.5px;
+    border-right-width: 1.5px;
+    transform: rotate(20deg);
+    box-shadow: 0 0 20px rgba(255, 90, 215, 0.2);
+  }
+
+  .hero-image-wrapper::before {
+    inset: 10px;
+    filter: blur(20px);
+  }
+
+  .hero-image-wrapper {
+    padding: 0.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .note-cluster {
+    justify-content: center;
+  }
+
+  .note-box {
+    min-width: 100%;
+    max-width: 100%;
+    transform: rotate(0deg);
+  }
+}
+        
