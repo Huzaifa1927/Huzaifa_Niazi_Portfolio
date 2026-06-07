@@ -34,8 +34,8 @@
     },
     { 
         image: './images/project 3.png', 
-        demo: 'https://huzaifa1927.github.io/edu',
-        code: 'https://github.com/huzaifa1927/edu'
+        demo: 'https://huzaifa1927.github.io/Edu-University-Frontend/',
+        code: 'https://github.com/Huzaifa1927/Edu-University-Frontend'
     }
 ];
 
