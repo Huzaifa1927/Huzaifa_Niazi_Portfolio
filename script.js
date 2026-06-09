@@ -23,14 +23,14 @@
     const projectCards = cardsContainer ? Array.from(cardsContainer.querySelectorAll('.card-cover')) : [];
     const projectData = [
     { 
-        image: './images/project 1.png', 
-        demo: 'https://huzaifa1927.github.io/frubs-website-ui-clone/',
-        code: 'https://github.com/Huzaifa1927/frubs-website-ui-clone'
-    },
-    { 
         image: './images/project 2.png', 
         demo: 'https://huzaifa1927.github.io/Zubbery-Clone/',
         code: 'https://github.com/Huzaifa1927/Zubbery-Clone'
+    },
+    { 
+        image: './images/project 1.png', 
+        demo: 'https://huzaifa1927.github.io/frubs-website-ui-clone/',
+        code: 'https://github.com/Huzaifa1927/frubs-website-ui-clone'
     },
     { 
         image: './images/project 3.png', 
