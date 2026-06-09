@@ -1,6 +1,6 @@
 (function () {
     const typingText = document.getElementById('typing-text');
-    const messages = ['Junior Software Developer', 'Web Developer', 'Problem Solver'];
+    const messages = ['Junior Software Engineer', 'Web Developer', 'Problem Solver'];
     const typingDelay = 50;
     const erasingDelay = 40;
     const pauseDelay = 1000;
