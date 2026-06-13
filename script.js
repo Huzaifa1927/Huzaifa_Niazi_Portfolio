@@ -28,9 +28,9 @@
         code: 'https://github.com/Huzaifa1927/Zubbery-Clone'
     },
     { 
-        image: './images/project 1.png', 
-        demo: 'https://huzaifa1927.github.io/frubs-website-ui-clone/',
-        code: 'https://github.com/Huzaifa1927/frubs-website-ui-clone'
+        image: './images/ecom.png', 
+        demo: 'https://huzaifa1927.github.io/Ecommerce-Store/',
+        code: 'https://github.com/Huzaifa1927/Ecommerce-Store'
     },
     { 
         image: './images/project 3.png', 
